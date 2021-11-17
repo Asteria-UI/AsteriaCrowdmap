@@ -1,2 +1,4703 @@
 {
+    "anonymousAreaName": "Unnamed Area",
+    "areaCount": 2,
+    "areas": [
+        {
+            "id": -1,
+            "name": "Default Area",
+            "roomCount": 0,
+            "rooms": [
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Hessa Village",
+            "roomCount": 175,
+            "rooms": [
+                {
+                    "coordinates": [
+                        18,
+                        -14,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                    ],
+                    "id": 987
+                },
+                {
+                    "coordinates": [
+                        23,
+                        16,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                    ],
+                    "id": 2062
+                },
+                {
+                    "coordinates": [
+                        23,
+                        -16,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                    ],
+                    "id": 2993
+                },
+                {
+                    "coordinates": [
+                        24,
+                        -16,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                    ],
+                    "id": 2994
+                },
+                {
+                    "coordinates": [
+                        23,
+                        -15,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 3019,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3005,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 2993,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 2994,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 3004,
+                    "name": "Northwestern Edge of the Farm",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        24,
+                        -15,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                    ],
+                    "id": 3005
+                },
+                {
+                    "coordinates": [
+                        18,
+                        -13,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                        {
+                            "exitId": 3016,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 987,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 3015,
+                    "name": "Path Behind the Cottage",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        19,
+                        -13,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                        {
+                            "exitId": 3017,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 3015,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 3016,
+                    "name": "On a Path Behind the Cottage",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        20,
+                        -13,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                        {
+                            "exitId": 3018,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 3016,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 3017,
+                    "name": "On a Dirt Trail Behind the Cottage",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        21,
+                        -13,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                        {
+                            "exitId": 4061,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3017,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 3019,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 3018,
+                    "name": "On a Path to the Farm",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        22,
+                        -14,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                        {
+                            "exitId": 3018,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3004,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 3019,
+                    "name": "On a Path to the Farm",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        0,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4043,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4123,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4063,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4092,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4082,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4074,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4137,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4104,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4042,
+                    "name": "At the Village Square of Hessa",
+                    "symbol": {
+                        "text": "$T"
+                    },
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        3,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4044,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4042,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4043,
+                    "name": "North of the Village Square",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4046,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4045,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4043,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4044,
+                    "name": "Winding Cobblestone Path in Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4135,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4044,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4045,
+                    "name": "Within a Small Straw Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        7,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4047,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4147,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4044,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4046,
+                    "name": "Northern Cobblestone Path in Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        9,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4048,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4118,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4046,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4047,
+                    "name": "Near an Empty Hut in Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        10,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4051,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4047,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4048,
+                    "name": "At a Fading Path",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        17,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 6948,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4052,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4049,
+                    "name": "At a Path to the Coast",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -8,
+                        11,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4052,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4051,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4138,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4053,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4050,
+                    "name": "Among the Grassy Fields of Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        11,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4052,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4054,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4050,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4048,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4051,
+                    "name": "North of the Village in the Fields of Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        16,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4049,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4058,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4051,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4054,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4050,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4052,
+                    "name": "Among the Grassy Fields of Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -15,
+                        0,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4050,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4138,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 11261,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4096,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4053,
+                    "name": "Near a Temple in the Grassy Fields of Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        16,
+                        11,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4058,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4052,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4140,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4051,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4055,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4057,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4103,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4054,
+                    "name": "Among the Grassy Fields of Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        16,
+                        2,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4054,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4140,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4057,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4103,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4059,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4061,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4055,
+                    "name": "East of the Village in the Fields of Hessa ",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -12,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4139,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4059,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4096,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4060,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4056,
+                    "name": "South of the Village in the Fields of Hessa ",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        20,
+                        2,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4140,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4054,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4055,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4061,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4059,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4057,
+                    "name": "Among the Grassy Fields of Hessa   ",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        20,
+                        16,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4062,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4052,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4140,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4054,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4058,
+                    "name": "Near Stone Ruins in the Fields",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        16,
+                        -12,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4055,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4057,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4095,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4061,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4056,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4060,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4059,
+                    "name": "Among the Grassy Fields of Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -22,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4056,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4059,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4096,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4069,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4060,
+                    "name": "Among the Grassy Fields of Hessa   ",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        20,
+                        -12,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4057,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4055,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4059,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 3018,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4061,
+                    "name": "In the Fields Near a Path to a Farm",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        21,
+                        17,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 7313,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4058,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4062,
+                    "name": "On a Path to the Ruins",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        4,
+                        2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4064,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4042,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4063,
+                    "name": "Cobblestone Path Northwest of the Village Square",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        1,
+                        5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4068,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4065,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4067,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4166,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4063,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4064,
+                    "name": "At an Intersection in Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        4,
+                        5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4141,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4066,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4064,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4065,
+                    "name": "Near a Grocery Stall on Piper Lane",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4065,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4066,
+                    "name": "At a Corner Stall",
+                    "symbol": {
+                        "text": "$"
+                    },
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        0,
+                        5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4064,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4070,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4067,
+                    "name": "On Piper Lane in Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        1,
+                        6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4169,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4164,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4064,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4068,
+                    "name": "Between Huts in Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -23,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4060,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 12009,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4069,
+                    "name": "At a Path in the Southern Fields",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4071,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4067,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4073,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4072,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4070,
+                    "name": "Between Merchant Huts on Piper Lane",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4070,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4071,
+                    "name": "In a Hut Full of Armor",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4070,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4072,
+                    "name": "In a Hut Full of Weapons",
+                    "symbol": {
+                        "text": "$"
+                    },
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -2,
+                        5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4143,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4070,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4151,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4073,
+                    "name": "On Piper Lane in Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -3,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4042,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4075,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4074,
+                    "name": "Cobblestone Path South of the Village Square",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4074,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4171,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4170,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4076,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4075,
+                    "name": "Between Huts on the Cobblestone Path",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4075,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4078,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4077,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4076,
+                    "name": "Before a Fountain in Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        -6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4076,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4079,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4077,
+                    "name": "Beside a Fountain in Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        -6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4076,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4079,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4078,
+                    "name": "Beside a Fountain in Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -7,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4078,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4077,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4080,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4079,
+                    "name": "Before a Fountain in Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -8,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4079,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4081,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4080,
+                    "name": "At a Wide Cobblestone Path in Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -9,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4080,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4121,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4120,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4139,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4119,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4081,
+                    "name": "Near the Larger Huts of Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        4,
+                        0,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4042,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4083,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4082,
+                    "name": "On Serenity Lane in Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        3,
+                        0,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4082,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4084,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4083,
+                    "name": "On Serenity Lane in Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4085,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4083,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4155,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4084,
+                    "name": "Near a Garden on Serenity Lane",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        0,
+                        1,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "door": "closed",
+                            "exitId": 4086,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4084,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4085,
+                    "name": "Before a Garden in Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        0,
+                        2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4089,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4091,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4087,
+                            "name": "west"
+                        },
+                        {
+                            "door": "closed",
+                            "exitId": 4085,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4086,
+                    "name": "In the Gardens of Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4088,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4086,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4087,
+                    "name": "In the Gardens of Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        3,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4089,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4087,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4088,
+                    "name": "In the Gardens of Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        0,
+                        3,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4090,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4088,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4086,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4089,
+                    "name": "In the Gardens of Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        1,
+                        3,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4089,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4091,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4090,
+                    "name": "In the Gardens of Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        1,
+                        2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4090,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4086,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4091,
+                    "name": "In the Gardens of Hessa Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        9,
+                        0,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4093,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4042,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4092,
+                    "name": "Serenity Lane by the Village Square",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        0,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4097,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4092,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4094,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4093,
+                    "name": "Serenity Lane by a Path",
+                    "symbol": {
+                        "text": " "
+                    },
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        -2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4093,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4095,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4137,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4094,
+                    "name": "On a Path in the Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        13,
+                        -7,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4094,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4059,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4095,
+                    "name": "At a Fading Path",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -8,
+                        -12,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4138,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4117,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4053,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4056,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4060,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4096,
+                    "name": "Among the Grassy Fields of Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        11,
+                        0,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4101,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4093,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4098,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4097,
+                    "name": "Outside an Inn on Serenity Lane",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        11,
+                        -1,
+                        0
+                    ],
+                    "environment": 260,
+                    "exits": [
+                        {
+                            "exitId": 4097,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4099,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4100,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4098,
+                    "name": "At the Sungrass Inn of Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        -1,
+                        0
+                    ],
+                    "environment": 260,
+                    "exits": [
+                        {
+                            "exitId": 4158,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4098,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4100,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4159,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4099,
+                    "name": "In the Sungrass Inn",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        -2,
+                        0
+                    ],
+                    "environment": 260,
+                    "exits": [
+                        {
+                            "exitId": 4099,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4158,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4098,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4159,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4100,
+                    "name": "Along the Back Wall of the Inn",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        0,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4102,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4097,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4101,
+                    "name": "At a Broken Road in the Village",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        13,
+                        1,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4103,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4101,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4102,
+                    "name": "At the End of Serenity Lane",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4054,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4055,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4102,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4103,
+                    "name": "At a Fading Path",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        4,
+                        -2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4042,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4165,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4168,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4105,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4104,
+                    "name": "Cobblestone Path Southwest of the Village Square",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        1,
+                        -5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4104,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4108,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4106,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4105,
+                    "name": "On Warrior's Way in Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        0,
+                        -5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4105,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4107,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4106,
+                    "name": "On Warrior's Way in Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        -5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4109,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4106,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4116,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4107,
+                    "name": "On Warrior's Way by a Large Courtyard",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        2,
+                        -5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4105,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4108,
+                    "name": "In a Blacksmith's Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        -4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "door": "closed",
+                            "exitId": 4110,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4107,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4109,
+                    "name": "At the Courtyard Entrance",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        -3,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4113,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4114,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4112,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4115,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4111,
+                            "name": "west"
+                        },
+                        {
+                            "door": "closed",
+                            "exitId": 4109,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4110,
+                    "name": "Courtyard of the Warrior",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -2,
+                        -3,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4112,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4113,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4110,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4111,
+                    "name": "Courtyard of the Warrior",
+                    "symbol": {
+                        "text": "T"
+                    },
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -2,
+                        -2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4113,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4111,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4110,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4112,
+                    "name": "Courtyard of the Warrior",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        -2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4114,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4112,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4110,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4115,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4111,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4113,
+                    "name": "Courtyard of the Warrior",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        0,
+                        -2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4113,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4115,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4110,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4114,
+                    "name": "Courtyard of the Warrior",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        0,
+                        -3,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4114,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4113,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4110,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4115,
+                    "name": "Courtyard of the Warrior",
+                    "symbol": {
+                        "text": "T"
+                    },
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -2,
+                        -6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4107,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4163,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4117,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4116,
+                    "name": "A Small Path off Warrior's Way  ",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -4,
+                        -8,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4116,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4096,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4117,
+                    "name": "At a Fading Path",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        10,
+                        0
+                    ],
+                    "environment": 257,
+                    "exits": [
+                        {
+                            "exitId": 4047,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4118,
+                    "name": "In an Abandoned Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        -10,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4081,
+                            "name": "northeast"
+                        }
+                    ],
+                    "id": 4119,
+                    "name": "In a Large Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        -9,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4081,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4120,
+                    "name": "In a Large Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        -8,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4081,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4121,
+                    "name": "In a Large Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        11,
+                        2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4124,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4122,
+                    "name": "In a Mysterious Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4124,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4042,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4123,
+                    "name": "Cobblestone Path Northeast of the Village Square",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4125,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4122,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4123,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4124,
+                    "name": "At a Hut Before the Pond",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        3,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4126,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4124,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4125,
+                    "name": "Near the Pond in Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4127,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4133,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4125,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4126,
+                    "name": "Boardwalk Around Hessa Pond",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4128,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4126,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4127,
+                    "name": "Boardwalk Around Hessa Pond",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4129,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4127,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4128,
+                    "name": "Boardwalk Around Hessa Pond",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        11,
+                        6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4130,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4128,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4129,
+                    "name": "Boardwalk Around Hessa Pond",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4129,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4131,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4130,
+                    "name": "Boardwalk Around Hessa Pond",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4130,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4132,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4131,
+                    "name": "Boardwalk Around Hessa Pond",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4131,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4133,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4132,
+                    "name": "Boardwalk Around Hessa Pond",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        11,
+                        4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4132,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4126,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4133,
+                    "name": "Boardwalk Around Hessa Pond",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4136,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4045,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4135,
+                    "name": "Outside a Very Large Straw Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4135,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4136,
+                    "name": "In a Very Large Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        9,
+                        -3,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4094,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4042,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4162,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4137,
+                    "name": "At a Path Around the Bend",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -8,
+                        0,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4050,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4156,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4053,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4096,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4138,
+                    "name": "West of the Village in the Fields of Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -10,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4081,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4056,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4139,
+                    "name": "At a Fading Path",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        20,
+                        11,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4058,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4054,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4057,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4055,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4140,
+                    "name": "Among the Grassy Fields of Hessa  ",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        4,
+                        6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4065,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4141,
+                    "name": "Spiritual Smoking Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        7,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4144,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4143,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4142,
+                    "name": "On Piper Lane in Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4142,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4073,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4143,
+                    "name": "Near a Book Merchant on Piper Lane",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        8,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4145,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4146,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4142,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4144,
+                    "name": "Near a Hut on Piper Lane",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -4,
+                        9,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4144,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4145,
+                    "name": "In a Hunter's Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -2,
+                        8,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4147,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4144,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4146,
+                    "name": "On a Cobblestone Path",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4167,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4146,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4046,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4147,
+                    "name": "On the Cobblestone Path in Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -4,
+                        3,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4151,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4149,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4150,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4161,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4148,
+                    "name": "On a Path Between Huts",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -5,
+                        4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4148,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4149,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4148,
+                            "name": "northwest"
+                        }
+                    ],
+                    "id": 4150,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4073,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4148,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4151,
+                    "name": "On a Path in Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -16,
+                        -26,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 11261,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4153,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4152,
+                    "name": "On a Path in the Fields",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -15,
+                        -27,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4152,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4154,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4153,
+                    "name": "In a Small Private Cemetary",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -14,
+                        -27,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 12011,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4153,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4154,
+                    "name": "On a Path in the Fields",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -4,
+                        0,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4157,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4084,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4156,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4160,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4155,
+                    "name": "On Serenity Lane in Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -7,
+                        0,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4161,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4155,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4138,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4156,
+                    "name": "At a Fading Path",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -4,
+                        1,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4155,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4157,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        13,
+                        -1,
+                        0
+                    ],
+                    "environment": 260,
+                    "exits": [
+                        {
+                            "exitId": 4099,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4159,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4100,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4158,
+                    "name": "Sleeping Area of the Sungrass Inn",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        13,
+                        -2,
+                        0
+                    ],
+                    "environment": 260,
+                    "exits": [
+                        {
+                            "exitId": 4158,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4099,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4100,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4159,
+                    "name": "Sleeping Area of the Sungrass Inn",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -4,
+                        -1,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4155,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4160,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -5,
+                        2,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4148,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4156,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4161,
+                    "name": "On a Path in Hessa",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        9,
+                        -4,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 4137,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4162,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        -5,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4116,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4163,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        0,
+                        6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4068,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4164,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        3,
+                        -1,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4104,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4165,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        1,
+                        4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4064,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4166,
+                    "name": "In a Mystical Hut",
+                    "symbol": {
+                        "text": "$"
+                    },
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        9,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4147,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4167,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        -3,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4104,
+                            "name": "northwest"
+                        }
+                    ],
+                    "id": 4168,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        2,
+                        6,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4068,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4169,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        -4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4075,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4170,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        -4,
+                        0
+                    ],
+                    "environment": 263,
+                    "exits": [
+                        {
+                            "exitId": 4075,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4171,
+                    "name": "In a Small Hut",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        9,
+                        18,
+                        0
+                    ],
+                    "environment": 292,
+                    "exits": [
+                    ],
+                    "id": 6947
+                },
+                {
+                    "coordinates": [
+                        8,
+                        18,
+                        0
+                    ],
+                    "environment": 292,
+                    "exits": [
+                        {
+                            "exitId": 9365,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 6947,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 6949,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4049,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 6948,
+                    "name": "At a Path on the Northern Coast",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        18,
+                        0
+                    ],
+                    "environment": 292,
+                    "exits": [
+                    ],
+                    "id": 6949
+                },
+                {
+                    "coordinates": [
+                        22,
+                        17,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                        {
+                            "exitId": 7314,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4062,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 2062,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 7313,
+                    "name": "On a Fork in the Path",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        23,
+                        17,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                    ],
+                    "id": 7314
+                },
+                {
+                    "coordinates": [
+                        8,
+                        19,
+                        0
+                    ],
+                    "environment": 292,
+                    "exits": [
+                    ],
+                    "id": 9365
+                },
+                {
+                    "coordinates": [
+                        -20,
+                        1,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                    ],
+                    "id": 10498
+                },
+                {
+                    "coordinates": [
+                        -19,
+                        1,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 10500,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 10498,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 10499,
+                    "name": "On a Path in the Grass",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -18,
+                        1,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 10501,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 10499,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 10500,
+                    "name": "On a Path in the Grass",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -17,
+                        1,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 10500,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 11261,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 10501,
+                    "name": "On a Path Near a Temple",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -16,
+                        0,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 11262,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 10501,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4053,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4152,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 11261,
+                    "name": "Before a Beautiful White Temple",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -16,
+                        1,
+                        0
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11263,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 11261,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 11262,
+                    "name": "At the Entrance to the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -16,
+                        2,
+                        0
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11268,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 11264,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 11262,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 11263,
+                    "name": "In the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -17,
+                        2,
+                        0
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11269,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 11263,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 11264,
+                    "name": "In the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -17,
+                        4,
+                        0
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11266,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 11269,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 11265,
+                    "name": "In the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -16,
+                        4,
+                        0
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11267,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 11265,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 11266,
+                    "name": "In the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -15,
+                        4,
+                        0
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11266,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 11270,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 11271,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 11267,
+                    "name": "In the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -15,
+                        2,
+                        0
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11270,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 11263,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 11268,
+                    "name": "In the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -17,
+                        3,
+                        0
+                    ],
+                    "environment": 257,
+                    "exits": [
+                        {
+                            "exitId": 11265,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 11264,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 11269,
+                    "name": "In the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -15,
+                        3,
+                        0
+                    ],
+                    "environment": 257,
+                    "exits": [
+                        {
+                            "exitId": 11267,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 11268,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 11270,
+                    "name": "In the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -15,
+                        4,
+                        -1
+                    ],
+                    "environment": 257,
+                    "exits": [
+                        {
+                            "exitId": 11267,
+                            "name": "up"
+                        },
+                        {
+                            "exitId": 11272,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 11271,
+                    "name": "In a White Marble Stairwell",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -15,
+                        4,
+                        -2
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11277,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 11273,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 11271,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 11272,
+                    "name": "Beneath the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -15,
+                        3,
+                        -2
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11272,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 11276,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 11274,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 11273,
+                    "name": "Beneath the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -15,
+                        2,
+                        -2
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11273,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 11275,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 11274,
+                    "name": "Beneath the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -16,
+                        2,
+                        -2
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11276,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 11274,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 11280,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 11275,
+                    "name": "Beneath the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -16,
+                        3,
+                        -2
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11277,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 11273,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 11279,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 11275,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 11276,
+                    "name": "Beneath the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -16,
+                        4,
+                        -2
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11272,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 11278,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 11276,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 11277,
+                    "name": "Beneath the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -17,
+                        4,
+                        -2
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11277,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 11279,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 11278,
+                    "name": "Beneath the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -17,
+                        3,
+                        -2
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11278,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 11276,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 11280,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 11279,
+                    "name": "Beneath the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -17,
+                        2,
+                        -2
+                    ],
+                    "environment": 295,
+                    "exits": [
+                        {
+                            "exitId": 11279,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 11275,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 11280,
+                    "name": "Beneath the Temple of Yan",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -24,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                        {
+                            "exitId": 4069,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 12010,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 12009,
+                    "name": "Western Drag South of the Hessa Fields",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -25,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                        {
+                            "exitId": 12009,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 12011,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 12010,
+                    "name": "On the Western Drag",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -27,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                        {
+                            "exitId": 12010,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4154,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 12012,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 12011,
+                    "name": "On the Western Drag",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        -28,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                        {
+                            "exitId": 12011,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 12013,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 12012,
+                    "name": "On the Western Drag",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        -29,
+                        0
+                    ],
+                    "environment": 272,
+                    "exits": [
+                    ],
+                    "id": 12013
+                }
+            ]
+        }
+    ],
+    "customEnvColors": [
+        {
+            "color24RGB": [
+                176,
+                224,
+                230
+            ],
+            "id": 20
+        },
+        {
+            "color24RGB": [
+                160,
+                82,
+                45
+            ],
+            "id": 21
+        },
+        {
+            "color24RGB": [
+                205,
+                133,
+                63
+            ],
+            "id": 22
+        },
+        {
+            "color24RGB": [
+                218,
+                165,
+                32
+            ],
+            "id": 23
+        },
+        {
+            "color24RGB": [
+                132,
+                112,
+                255
+            ],
+            "id": 24
+        },
+        {
+            "color24RGB": [
+                47,
+                79,
+                79
+            ],
+            "id": 25
+        },
+        {
+            "color24RGB": [
+                190,
+                190,
+                190
+            ],
+            "id": 26
+        },
+        {
+            "color24RGB": [
+                210,
+                180,
+                140
+            ],
+            "id": 27
+        },
+        {
+            "color24RGB": [
+                255,
+                69,
+                0
+            ],
+            "id": 28
+        },
+        {
+            "color24RGB": [
+                255,
+                215,
+                0
+            ],
+            "id": 29
+        },
+        {
+            "color24RGB": [
+                127,
+                255,
+                0
+            ],
+            "id": 30
+        },
+        {
+            "color24RGB": [
+                0,
+                100,
+                0
+            ],
+            "id": 31
+        },
+        {
+            "color24RGB": [
+                184,
+                134,
+                11
+            ],
+            "id": 32
+        },
+        {
+            "color24RGB": [
+                50,
+                205,
+                50
+            ],
+            "id": 33
+        },
+        {
+            "color24RGB": [
+                102,
+                205,
+                170
+            ],
+            "id": 34
+        },
+        {
+            "color24RGB": [
+                0,
+                128,
+                128
+            ],
+            "id": 35
+        },
+        {
+            "color24RGB": [
+                255,
+                250,
+                205
+            ],
+            "id": 36
+        },
+        {
+            "color24RGB": [
+                107,
+                142,
+                35
+            ],
+            "id": 37
+        },
+        {
+            "color24RGB": [
+                139,
+                69,
+                19
+            ],
+            "id": 38
+        },
+        {
+            "color24RGB": [
+                112,
+                128,
+                144
+            ],
+            "id": 39
+        },
+        {
+            "color32RGBA": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "id": 40
+        },
+        {
+            "color24RGB": [
+                0,
+                190,
+                255
+            ],
+            "id": 41
+        },
+        {
+            "color24RGB": [
+                138,
+                43,
+                226
+            ],
+            "id": 42
+        },
+        {
+            "color24RGB": [
+                255,
+                250,
+                250
+            ],
+            "id": 43
+        },
+        {
+            "color24RGB": [
+                65,
+                105,
+                225
+            ],
+            "id": 44
+        },
+        {
+            "color24RGB": [
+                90,
+                158,
+                160
+            ],
+            "id": 45
+        },
+        {
+            "color24RGB": [
+                30,
+                144,
+                255
+            ],
+            "id": 46
+        },
+        {
+            "color24RGB": [
+                128,
+                0,
+                0
+            ],
+            "id": 257
+        },
+        {
+            "color24RGB": [
+                0,
+                128,
+                0
+            ],
+            "id": 258
+        },
+        {
+            "color24RGB": [
+                128,
+                128,
+                0
+            ],
+            "id": 259
+        },
+        {
+            "color24RGB": [
+                0,
+                0,
+                128
+            ],
+            "id": 260
+        },
+        {
+            "color24RGB": [
+                128,
+                0,
+                128
+            ],
+            "id": 261
+        },
+        {
+            "color24RGB": [
+                0,
+                128,
+                128
+            ],
+            "id": 262
+        },
+        {
+            "color24RGB": [
+                192,
+                192,
+                192
+            ],
+            "id": 263
+        },
+        {
+            "color24RGB": [
+                0,
+                0,
+                0
+            ],
+            "id": 264
+        },
+        {
+            "color24RGB": [
+                255,
+                0,
+                0
+            ],
+            "id": 265
+        },
+        {
+            "color24RGB": [
+                0,
+                255,
+                0
+            ],
+            "id": 266
+        },
+        {
+            "color24RGB": [
+                255,
+                255,
+                0
+            ],
+            "id": 267
+        },
+        {
+            "color24RGB": [
+                0,
+                0,
+                255
+            ],
+            "id": 268
+        },
+        {
+            "color24RGB": [
+                255,
+                0,
+                255
+            ],
+            "id": 269
+        },
+        {
+            "color24RGB": [
+                0,
+                255,
+                255
+            ],
+            "id": 270
+        },
+        {
+            "color24RGB": [
+                255,
+                255,
+                255
+            ],
+            "id": 271
+        },
+        {
+            "color24RGB": [
+                128,
+                128,
+                128
+            ],
+            "id": 272
+        }
+    ],
+    "defaultAreaName": "Default Area",
+    "formatVersion": 1,
+    "labelCount": 0,
+    "mapSymbolFontDetails": "Bitstream Vera Sans Mono,12,-1,5,50,0,0,0,0,0",
+    "mapSymbolFontFudgeFactor": 1,
+    "onlyMapSymbolFontToBeUsed": false,
+    "playerRoomColors": [
+        {
+            "color24RGB": [
+                255,
+                0,
+                0
+            ]
+        },
+        {
+            "color24RGB": [
+                255,
+                255,
+                255
+            ]
+        }
+    ],
+    "playerRoomInnerDiameterPercentage": 79,
+    "playerRoomOuterDiameterPercentage": 150,
+    "playerRoomStyle": 1,
+    "playersRoomId": {
+        "Asteria IRE Mapper": 4043,
+        "Asteria New Profile": 4092
+    },
+    "roomCount": 175
 }
