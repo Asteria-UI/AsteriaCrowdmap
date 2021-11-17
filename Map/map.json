@@ -12,7 +12,7 @@
         {
             "id": 1,
             "name": "Hessa Village",
-            "roomCount": 171,
+            "roomCount": 175,
             "rooms": [
                 {
                     "coordinates": [
@@ -35,6 +35,70 @@
                     "exits": [
                     ],
                     "id": 2062
+                },
+                {
+                    "coordinates": [
+                        23,
+                        -16,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                    ],
+                    "id": 2993
+                },
+                {
+                    "coordinates": [
+                        24,
+                        -16,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                    ],
+                    "id": 2994
+                },
+                {
+                    "coordinates": [
+                        23,
+                        -15,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                        {
+                            "exitId": 3019,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3005,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 2993,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 2994,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 3004,
+                    "name": "Northwestern Edge of the Farm",
+                    "userData": {
+                        "outdoors": "y"
+                    }
+                },
+                {
+                    "coordinates": [
+                        24,
+                        -15,
+                        0
+                    ],
+                    "environment": 293,
+                    "exits": [
+                    ],
+                    "id": 3005
                 },
                 {
                     "coordinates": [
@@ -65,7 +129,7 @@
                         -13,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 272,
                     "exits": [
                         {
                             "exitId": 3017,
@@ -111,7 +175,7 @@
                         -13,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 272,
                     "exits": [
                         {
                             "exitId": 4061,
@@ -140,8 +204,20 @@
                     ],
                     "environment": 272,
                     "exits": [
+                        {
+                            "exitId": 3018,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3004,
+                            "name": "southeast"
+                        }
                     ],
-                    "id": 3019
+                    "id": 3019,
+                    "name": "On a Path to the Farm",
+                    "userData": {
+                        "outdoors": "y"
+                    }
                 },
                 {
                     "coordinates": [
@@ -249,7 +325,7 @@
                         4,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4135,
@@ -262,9 +338,6 @@
                     ],
                     "id": 4045,
                     "name": "Within a Small Straw Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -585,7 +658,7 @@
                         -12,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 293,
                     "exits": [
                         {
                             "exitId": 4139,
@@ -783,7 +856,7 @@
                         17,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 293,
                     "exits": [
                         {
                             "exitId": 7313,
@@ -796,9 +869,6 @@
                     ],
                     "id": 4062,
                     "name": "On a Path to the Ruins",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -916,7 +986,7 @@
                         5,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4064,
@@ -1020,7 +1090,7 @@
                         6,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4070,
@@ -1029,9 +1099,6 @@
                     ],
                     "id": 4071,
                     "name": "In a Hut Full of Armor",
-                    "symbol": {
-                        "text": "$"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -1145,7 +1212,7 @@
                         -5,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4075,
@@ -1162,9 +1229,6 @@
                     ],
                     "id": 4076,
                     "name": "Before a Fountain in Hessa Village",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -1221,7 +1285,7 @@
                         -7,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4078,
@@ -1238,9 +1302,6 @@
                     ],
                     "id": 4079,
                     "name": "Before a Fountain in Hessa Village",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -1438,7 +1499,7 @@
                         2,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4088,
@@ -1451,9 +1512,6 @@
                     ],
                     "id": 4087,
                     "name": "In the Gardens of Hessa Village",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -1487,7 +1545,7 @@
                         3,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4090,
@@ -1504,9 +1562,6 @@
                     ],
                     "id": 4089,
                     "name": "In the Gardens of Hessa Village",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -1540,7 +1595,7 @@
                         2,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4090,
@@ -1553,9 +1608,6 @@
                     ],
                     "id": 4091,
                     "name": "In the Gardens of Hessa Village",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -1566,7 +1618,7 @@
                         0,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4093,
@@ -1579,9 +1631,6 @@
                     ],
                     "id": 4092,
                     "name": "Serenity Lane by the Village Square",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -1622,7 +1671,7 @@
                         -2,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4093,
@@ -1734,7 +1783,7 @@
                         -1,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 260,
                     "exits": [
                         {
                             "exitId": 4097,
@@ -1751,9 +1800,6 @@
                     ],
                     "id": 4098,
                     "name": "At the Sungrass Inn of Hessa",
-                    "symbol": {
-                        "text": "$"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -1795,7 +1841,7 @@
                         -2,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 260,
                     "exits": [
                         {
                             "exitId": 4099,
@@ -1816,9 +1862,6 @@
                     ],
                     "id": 4100,
                     "name": "Along the Back Wall of the Inn",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -1829,7 +1872,7 @@
                         0,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4102,
@@ -1842,9 +1885,6 @@
                     ],
                     "id": 4101,
                     "name": "At a Broken Road in the Village",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -1986,7 +2026,7 @@
                         -5,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4109,
@@ -2003,9 +2043,6 @@
                     ],
                     "id": 4107,
                     "name": "On Warrior's Way by a Large Courtyard",
-                    "symbol": {
-                        "text": "T"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -2016,7 +2053,7 @@
                         -5,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4105,
@@ -2025,9 +2062,6 @@
                     ],
                     "id": 4108,
                     "name": "In a Blacksmith's Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -2041,6 +2075,7 @@
                     "environment": 263,
                     "exits": [
                         {
+                            "door": "closed",
                             "exitId": 4110,
                             "name": "north"
                         },
@@ -2084,6 +2119,7 @@
                             "name": "west"
                         },
                         {
+                            "door": "closed",
                             "exitId": 4109,
                             "name": "south"
                         }
@@ -2130,7 +2166,7 @@
                         -2,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4113,
@@ -2147,9 +2183,6 @@
                     ],
                     "id": 4112,
                     "name": "Courtyard of the Warrior",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -2160,7 +2193,7 @@
                         -2,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4114,
@@ -2185,9 +2218,6 @@
                     ],
                     "id": 4113,
                     "name": "Courtyard of the Warrior",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -2198,7 +2228,7 @@
                         -2,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4113,
@@ -2215,9 +2245,6 @@
                     ],
                     "id": 4114,
                     "name": "Courtyard of the Warrior",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -2327,7 +2354,7 @@
                         -10,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4081,
@@ -2336,9 +2363,6 @@
                     ],
                     "id": 4119,
                     "name": "In a Large Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -2349,7 +2373,7 @@
                         -9,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4081,
@@ -2358,9 +2382,6 @@
                     ],
                     "id": 4120,
                     "name": "In a Large Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -2371,7 +2392,7 @@
                         -8,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4081,
@@ -2380,9 +2401,6 @@
                     ],
                     "id": 4121,
                     "name": "In a Large Hut",
-                    "symbol": {
-                        "text": "T"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -2581,7 +2599,7 @@
                         6,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4129,
@@ -2594,9 +2612,6 @@
                     ],
                     "id": 4130,
                     "name": "Boardwalk Around Hessa Pond",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -2830,7 +2845,7 @@
                         6,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4065,
@@ -2872,7 +2887,7 @@
                         6,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4142,
@@ -2885,9 +2900,6 @@
                     ],
                     "id": 4143,
                     "name": "Near a Book Merchant on Piper Lane",
-                    "symbol": {
-                        "text": "$"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -2925,7 +2937,7 @@
                         9,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4144,
@@ -2934,9 +2946,6 @@
                     ],
                     "id": 4145,
                     "name": "In a Hunter's Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3028,7 +3037,7 @@
                         4,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4148,
@@ -3037,9 +3046,6 @@
                     ],
                     "id": 4149,
                     "name": "In a Small Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3050,7 +3056,7 @@
                         2,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4148,
@@ -3059,9 +3065,6 @@
                     ],
                     "id": 4150,
                     "name": "In a Small Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3241,7 +3244,7 @@
                         -1,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 260,
                     "exits": [
                         {
                             "exitId": 4099,
@@ -3258,9 +3261,6 @@
                     ],
                     "id": 4158,
                     "name": "Sleeping Area of the Sungrass Inn",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3271,7 +3271,7 @@
                         -2,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 260,
                     "exits": [
                         {
                             "exitId": 4158,
@@ -3288,9 +3288,6 @@
                     ],
                     "id": 4159,
                     "name": "Sleeping Area of the Sungrass Inn",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3301,7 +3298,7 @@
                         -1,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4155,
@@ -3310,9 +3307,6 @@
                     ],
                     "id": 4160,
                     "name": "In a Small Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3346,7 +3340,7 @@
                         -4,
                         0
                     ],
-                    "environment": 263,
+                    "environment": 293,
                     "exits": [
                         {
                             "exitId": 4137,
@@ -3365,7 +3359,7 @@
                         -5,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4116,
@@ -3374,9 +3368,6 @@
                     ],
                     "id": 4163,
                     "name": "In a Small Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3387,7 +3378,7 @@
                         6,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4068,
@@ -3396,9 +3387,6 @@
                     ],
                     "id": 4164,
                     "name": "In a Small Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3409,7 +3397,7 @@
                         -1,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4104,
@@ -3418,9 +3406,6 @@
                     ],
                     "id": 4165,
                     "name": "In a Small Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3453,7 +3438,7 @@
                         9,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4147,
@@ -3462,9 +3447,6 @@
                     ],
                     "id": 4167,
                     "name": "In a Small Hut",
-                    "symbol": {
-                        "text": "$"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3475,7 +3457,7 @@
                         -3,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4104,
@@ -3484,9 +3466,6 @@
                     ],
                     "id": 4168,
                     "name": "In a Small Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3497,7 +3476,7 @@
                         6,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4068,
@@ -3506,9 +3485,6 @@
                     ],
                     "id": 4169,
                     "name": "In a Small Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3519,7 +3495,7 @@
                         -4,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4075,
@@ -3528,9 +3504,6 @@
                     ],
                     "id": 4170,
                     "name": "In a Small Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3541,7 +3514,7 @@
                         -4,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 263,
                     "exits": [
                         {
                             "exitId": 4075,
@@ -3550,9 +3523,6 @@
                     ],
                     "id": 4171,
                     "name": "In a Small Hut",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3676,7 +3646,7 @@
                         1,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 293,
                     "exits": [
                         {
                             "exitId": 10500,
@@ -3722,7 +3692,7 @@
                         1,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 293,
                     "exits": [
                         {
                             "exitId": 10500,
@@ -3735,9 +3705,6 @@
                     ],
                     "id": 10501,
                     "name": "On a Path Near a Temple",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3748,7 +3715,7 @@
                         0,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 293,
                     "exits": [
                         {
                             "exitId": 11262,
@@ -3769,9 +3736,6 @@
                     ],
                     "id": 11261,
                     "name": "Before a Beautiful White Temple",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3782,7 +3746,7 @@
                         1,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 295,
                     "exits": [
                         {
                             "exitId": 11263,
@@ -3795,9 +3759,6 @@
                     ],
                     "id": 11262,
                     "name": "At the Entrance to the Temple of Yan",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3835,7 +3796,7 @@
                         2,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 295,
                     "exits": [
                         {
                             "exitId": 11269,
@@ -3848,9 +3809,6 @@
                     ],
                     "id": 11264,
                     "name": "In the Temple of Yan",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3861,7 +3819,7 @@
                         4,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 295,
                     "exits": [
                         {
                             "exitId": 11266,
@@ -3874,9 +3832,6 @@
                     ],
                     "id": 11265,
                     "name": "In the Temple of Yan",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -3887,7 +3842,7 @@
                         4,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 295,
                     "exits": [
                         {
                             "exitId": 11267,
@@ -3900,9 +3855,6 @@
                     ],
                     "id": 11266,
                     "name": "In the Temple of Yan",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -4086,7 +4038,7 @@
                         2,
                         -2
                     ],
-                    "environment": 267,
+                    "environment": 295,
                     "exits": [
                         {
                             "exitId": 11273,
@@ -4099,9 +4051,6 @@
                     ],
                     "id": 11274,
                     "name": "Beneath the Temple of Yan",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -4112,7 +4061,7 @@
                         2,
                         -2
                     ],
-                    "environment": 267,
+                    "environment": 295,
                     "exits": [
                         {
                             "exitId": 11276,
@@ -4129,9 +4078,6 @@
                     ],
                     "id": 11275,
                     "name": "Beneath the Temple of Yan",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -4200,7 +4146,7 @@
                         4,
                         -2
                     ],
-                    "environment": 267,
+                    "environment": 295,
                     "exits": [
                         {
                             "exitId": 11277,
@@ -4213,9 +4159,6 @@
                     ],
                     "id": 11278,
                     "name": "Beneath the Temple of Yan",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -4253,7 +4196,7 @@
                         2,
                         -2
                     ],
-                    "environment": 267,
+                    "environment": 295,
                     "exits": [
                         {
                             "exitId": 11279,
@@ -4266,9 +4209,6 @@
                     ],
                     "id": 11280,
                     "name": "Beneath the Temple of Yan",
-                    "symbol": {
-                        "text": "Q"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -4325,7 +4265,7 @@
                         -27,
                         0
                     ],
-                    "environment": 267,
+                    "environment": 272,
                     "exits": [
                         {
                             "exitId": 12010,
@@ -4384,6 +4324,223 @@
         }
     ],
     "customEnvColors": [
+        {
+            "color24RGB": [
+                176,
+                224,
+                230
+            ],
+            "id": 20
+        },
+        {
+            "color24RGB": [
+                160,
+                82,
+                45
+            ],
+            "id": 21
+        },
+        {
+            "color24RGB": [
+                205,
+                133,
+                63
+            ],
+            "id": 22
+        },
+        {
+            "color24RGB": [
+                218,
+                165,
+                32
+            ],
+            "id": 23
+        },
+        {
+            "color24RGB": [
+                132,
+                112,
+                255
+            ],
+            "id": 24
+        },
+        {
+            "color24RGB": [
+                47,
+                79,
+                79
+            ],
+            "id": 25
+        },
+        {
+            "color24RGB": [
+                190,
+                190,
+                190
+            ],
+            "id": 26
+        },
+        {
+            "color24RGB": [
+                210,
+                180,
+                140
+            ],
+            "id": 27
+        },
+        {
+            "color24RGB": [
+                255,
+                69,
+                0
+            ],
+            "id": 28
+        },
+        {
+            "color24RGB": [
+                255,
+                215,
+                0
+            ],
+            "id": 29
+        },
+        {
+            "color24RGB": [
+                127,
+                255,
+                0
+            ],
+            "id": 30
+        },
+        {
+            "color24RGB": [
+                0,
+                100,
+                0
+            ],
+            "id": 31
+        },
+        {
+            "color24RGB": [
+                184,
+                134,
+                11
+            ],
+            "id": 32
+        },
+        {
+            "color24RGB": [
+                50,
+                205,
+                50
+            ],
+            "id": 33
+        },
+        {
+            "color24RGB": [
+                102,
+                205,
+                170
+            ],
+            "id": 34
+        },
+        {
+            "color24RGB": [
+                0,
+                128,
+                128
+            ],
+            "id": 35
+        },
+        {
+            "color24RGB": [
+                255,
+                250,
+                205
+            ],
+            "id": 36
+        },
+        {
+            "color24RGB": [
+                107,
+                142,
+                35
+            ],
+            "id": 37
+        },
+        {
+            "color24RGB": [
+                139,
+                69,
+                19
+            ],
+            "id": 38
+        },
+        {
+            "color24RGB": [
+                112,
+                128,
+                144
+            ],
+            "id": 39
+        },
+        {
+            "color32RGBA": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "id": 40
+        },
+        {
+            "color24RGB": [
+                0,
+                190,
+                255
+            ],
+            "id": 41
+        },
+        {
+            "color24RGB": [
+                138,
+                43,
+                226
+            ],
+            "id": 42
+        },
+        {
+            "color24RGB": [
+                255,
+                250,
+                250
+            ],
+            "id": 43
+        },
+        {
+            "color24RGB": [
+                65,
+                105,
+                225
+            ],
+            "id": 44
+        },
+        {
+            "color24RGB": [
+                90,
+                158,
+                160
+            ],
+            "id": 45
+        },
+        {
+            "color24RGB": [
+                30,
+                144,
+                255
+            ],
+            "id": 46
+        },
         {
             "color24RGB": [
                 128,
@@ -4539,8 +4696,8 @@
     "playerRoomOuterDiameterPercentage": 150,
     "playerRoomStyle": 1,
     "playersRoomId": {
-        "Asteria IRE Mapper": 4084,
+        "Asteria IRE Mapper": 4043,
         "Asteria New Profile": 4092
     },
-    "roomCount": 171
+    "roomCount": 175
 }
