@@ -1,0 +1,8 @@
+title: Asteriacrowdmap
+description: This repository holds the crowdsourced map for the MUD Asteria.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-midnight
+
+gems:
+  - jekyll-mentions
