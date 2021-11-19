@@ -1,3 +1,4 @@
 changelog = {
-[[v6: Added Kalmyr to Alarra speedwalk exits, have begun setting weight 10 in zones with hostiles so pathing will avoid those zones.]],
+[[v6: Added Kalmyr to Alarra speedwalk exits, have begun setting weight 10 in zones with hostiles so pathing will avoid those zones.]]
+[[v7: Version 6 was possibly broken...]],
 }
