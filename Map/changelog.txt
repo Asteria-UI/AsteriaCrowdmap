@@ -1,9 +1,3 @@
 changelog = {
-v4: 
-* Added Rhojidan and parts of the southern coast line
-v5:
-* Added room 1 to Default area to hold ferry rooms for auto travel
-* Added Kalmyr City and Kalmyr ferry rooms to the map
-* Added ferry rooms to carriage between Rhojidan and Hessa Village
-* Added top part of Dragon Tail Peninsula
+[[v6: Added Kalmyr to Alarra speedwalk exits, have begun setting weight 10 in zones with hostiles so pathing will avoid those zones.]],
 }
