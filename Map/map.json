@@ -1,6 +1,6 @@
 {
     "anonymousAreaName": "Unnamed Area",
-    "areaCount": 18,
+    "areaCount": 16,
     "areas": [
         {
             "id": -1,
@@ -18,8 +18,7 @@
                     ],
                     "id": 1,
                     "userData": {
-                        "ferry rooms": "[713,715,717,719,706,708,710,712,714,716,718,705,707,709,711]",
-                        "gotoMapping": "[]"
+                        "ferry rooms": "[713,715,717,719,706,708,710,712,714,716,718,705,707,709,711]"
                     }
                 }
             ]
@@ -27,7 +26,7 @@
         {
             "id": 1,
             "name": "Hessa Village",
-            "roomCount": 435,
+            "roomCount": 424,
             "rooms": [
                 {
                     "coordinates": [
@@ -1620,9 +1619,6 @@
                     ],
                     "id": 4071,
                     "name": "In a Hut Full of Armor",
-                    "symbol": {
-                        "text": "$"
-                    },
                     "userData": {
                         "outdoors": "y"
                     }
@@ -4053,8 +4049,7 @@
                     "environment": 292,
                     "exits": [
                     ],
-                    "id": 4981,
-                    "weight": 10
+                    "id": 4981
                 },
                 {
                     "coordinates": [
@@ -4103,55 +4098,7 @@
                     "name": "Northwestern Edge of the Jungle",
                     "userData": {
                         "outdoors": "y"
-                    },
-                    "weight": 10
-                },
-                {
-                    "coordinates": [
-                        8,
-                        -57,
-                        0
-                    ],
-                    "environment": 31,
-                    "exits": [
-                    ],
-                    "id": 5021
-                },
-                {
-                    "coordinates": [
-                        8,
-                        -58,
-                        0
-                    ],
-                    "environment": 31,
-                    "exits": [
-                        {
-                            "exitId": 5021,
-                            "name": "north"
-                        },
-                        {
-                            "exitId": 5023,
-                            "name": "west"
-                        },
-                        {
-                            "exitId": 10438,
-                            "name": "southeast"
-                        }
-                    ],
-                    "id": 5022,
-                    "name": "In the Jungle Near a River",
-                    "weight": 10
-                },
-                {
-                    "coordinates": [
-                        7,
-                        -58,
-                        0
-                    ],
-                    "environment": 31,
-                    "exits": [
-                    ],
-                    "id": 5023
+                    }
                 },
                 {
                     "coordinates": [
@@ -4173,8 +4120,7 @@
                     "environment": 292,
                     "exits": [
                     ],
-                    "id": 5053,
-                    "weight": 10
+                    "id": 5053
                 },
                 {
                     "coordinates": [
@@ -5545,39 +5491,6 @@
                 },
                 {
                     "coordinates": [
-                        7,
-                        -60,
-                        0
-                    ],
-                    "environment": 27,
-                    "exits": [
-                    ],
-                    "id": 9325
-                },
-                {
-                    "coordinates": [
-                        8,
-                        -60,
-                        0
-                    ],
-                    "environment": 27,
-                    "exits": [
-                    ],
-                    "id": 9326
-                },
-                {
-                    "coordinates": [
-                        9,
-                        -60,
-                        0
-                    ],
-                    "environment": 27,
-                    "exits": [
-                    ],
-                    "id": 9327
-                },
-                {
-                    "coordinates": [
                         4,
                         -60,
                         0
@@ -6205,8 +6118,7 @@
                         }
                     ],
                     "id": 9353,
-                    "name": "In the Shallow Sea Waters",
-                    "weight": 10
+                    "name": "In the Shallow Sea Waters"
                 },
                 {
                     "coordinates": [
@@ -7505,7 +7417,7 @@
                         -59,
                         0
                     ],
-                    "environment": 27,
+                    "environment": 292,
                     "exits": [
                         {
                             "exitId": 10436,
@@ -7532,75 +7444,10 @@
                         -59,
                         0
                     ],
-                    "environment": 27,
+                    "environment": 292,
                     "exits": [
-                        {
-                            "exitId": 10437,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 10435,
-                            "name": "west"
-                        },
-                        {
-                            "exitId": 9325,
-                            "name": "south"
-                        }
                     ],
-                    "id": 10436,
-                    "name": "Along the Tropical Southern Coast"
-                },
-                {
-                    "coordinates": [
-                        8,
-                        -59,
-                        0
-                    ],
-                    "environment": 27,
-                    "exits": [
-                        {
-                            "exitId": 10438,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 10436,
-                            "name": "west"
-                        },
-                        {
-                            "exitId": 9326,
-                            "name": "south"
-                        }
-                    ],
-                    "id": 10437,
-                    "name": "Along the Southern Coast"
-                },
-                {
-                    "coordinates": [
-                        9,
-                        -59,
-                        0
-                    ],
-                    "environment": 27,
-                    "exits": [
-                        {
-                            "exitId": 5022,
-                            "name": "northwest"
-                        },
-                        {
-                            "exitId": 7519,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 10437,
-                            "name": "west"
-                        },
-                        {
-                            "exitId": 9327,
-                            "name": "south"
-                        }
-                    ],
-                    "id": 10438,
-                    "name": "Southern Coast by a River Mouth"
+                    "id": 10436
                 },
                 {
                     "coordinates": [
@@ -7762,8 +7609,8 @@
                 },
                 {
                     "coordinates": [
-                        -21,
-                        13,
+                        -30,
+                        14,
                         0
                     ],
                     "environment": 46,
@@ -8391,10 +8238,6 @@
                         {
                             "exitId": 10495,
                             "name": "southeast"
-                        },
-                        {
-                            "exitId": 5298,
-                            "name": "boat to kalmyr"
                         }
                     ],
                     "id": 10492,
@@ -8864,7 +8707,7 @@
                         4,
                         -1
                     ],
-                    "environment": 28,
+                    "environment": 257,
                     "exits": [
                         {
                             "exitId": 11267,
@@ -8887,7 +8730,7 @@
                         4,
                         -2
                     ],
-                    "environment": 42,
+                    "environment": 295,
                     "exits": [
                         {
                             "exitId": 11277,
@@ -8914,7 +8757,7 @@
                         3,
                         -2
                     ],
-                    "environment": 42,
+                    "environment": 295,
                     "exits": [
                         {
                             "exitId": 11272,
@@ -9606,83 +9449,14 @@
                 },
                 {
                     "coordinates": [
-                        8,
+                        7,
                         -48,
                         0
                     ],
-                    "environment": 39,
+                    "environment": 272,
                     "exits": [
-                        {
-                            "exitId": 12020,
-                            "name": "northwest"
-                        },
-                        {
-                            "exitId": 12028,
-                            "name": "southeast"
-                        }
                     ],
-                    "id": 12027,
-                    "name": "On the Western Drag"
-                },
-                {
-                    "coordinates": [
-                        9,
-                        -49,
-                        0
-                    ],
-                    "environment": 39,
-                    "exits": [
-                        {
-                            "exitId": 12027,
-                            "name": "northwest"
-                        },
-                        {
-                            "exitId": 12029,
-                            "name": "southeast"
-                        }
-                    ],
-                    "id": 12028,
-                    "name": "On the Western Drag"
-                },
-                {
-                    "coordinates": [
-                        10,
-                        -50,
-                        0
-                    ],
-                    "environment": 39,
-                    "exits": [
-                        {
-                            "exitId": 12028,
-                            "name": "northwest"
-                        },
-                        {
-                            "exitId": 12030,
-                            "name": "southeast"
-                        }
-                    ],
-                    "id": 12029,
-                    "name": "On the Western Drag"
-                },
-                {
-                    "coordinates": [
-                        11,
-                        -51,
-                        0
-                    ],
-                    "environment": 39,
-                    "exits": [
-                        {
-                            "exitId": 12029,
-                            "name": "northwest"
-                        },
-                        {
-                            "exitId": 1497,
-                            "name": "east"
-                        }
-                    ],
-                    "id": 12030,
-                    "name": "On the Drag Nearing the Desert"
+                    "id": 12027
                 },
                 {
                     "coordinates": [
@@ -47670,10 +47444,6 @@
                         {
                             "exitId": 5299,
                             "name": "west"
-                        },
-                        {
-                            "exitId": 10492,
-                            "name": "boat to alarra"
                         }
                     ],
                     "id": 5298,
@@ -54500,147 +54270,6 @@
                     "id": 11430
                 }
             ]
-        },
-        {
-            "id": 16,
-            "name": "Raging River",
-            "roomCount": 4,
-            "rooms": [
-                {
-                    "coordinates": [
-                        11,
-                        -59,
-                        0
-                    ],
-                    "environment": 46,
-                    "exits": [
-                    ],
-                    "id": 7518
-                },
-                {
-                    "coordinates": [
-                        10,
-                        -59,
-                        0
-                    ],
-                    "environment": 46,
-                    "exits": [
-                        {
-                            "exitId": 7529,
-                            "name": "north"
-                        },
-                        {
-                            "exitId": 7518,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 10438,
-                            "name": "west"
-                        },
-                        {
-                            "exitId": 10403,
-                            "name": "south"
-                        }
-                    ],
-                    "id": 7519,
-                    "name": "Near the Western Bank at the River Mouth"
-                },
-                {
-                    "coordinates": [
-                        10,
-                        -58,
-                        0
-                    ],
-                    "environment": 46,
-                    "exits": [
-                    ],
-                    "id": 7529
-                },
-                {
-                    "coordinates": [
-                        10,
-                        -60,
-                        0
-                    ],
-                    "environment": 46,
-                    "exits": [
-                    ],
-                    "id": 10403
-                }
-            ]
-        },
-        {
-            "id": 17,
-            "name": "Desert Highway",
-            "roomCount": 4,
-            "rooms": [
-                {
-                    "coordinates": [
-                        12,
-                        -51,
-                        0
-                    ],
-                    "environment": 39,
-                    "exits": [
-                        {
-                            "exitId": 1498,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 12030,
-                            "name": "west"
-                        },
-                        {
-                            "exitId": 1503,
-                            "name": "south"
-                        }
-                    ],
-                    "id": 1497,
-                    "name": "On a Highway Near the Desert"
-                },
-                {
-                    "coordinates": [
-                        13,
-                        -51,
-                        0
-                    ],
-                    "environment": 39,
-                    "exits": [
-                        {
-                            "exitId": 1499,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 1497,
-                            "name": "west"
-                        }
-                    ],
-                    "id": 1498,
-                    "name": "On a Highway Near the Desert"
-                },
-                {
-                    "coordinates": [
-                        14,
-                        -51,
-                        0
-                    ],
-                    "environment": 39,
-                    "exits": [
-                    ],
-                    "id": 1499
-                },
-                {
-                    "coordinates": [
-                        12,
-                        -52,
-                        0
-                    ],
-                    "environment": 39,
-                    "exits": [
-                    ],
-                    "id": 1503
-                }
-            ]
         }
     ],
     "customEnvColors": [
@@ -55016,8 +54645,8 @@
     "playerRoomOuterDiameterPercentage": 150,
     "playerRoomStyle": 1,
     "playersRoomId": {
-        "Asteria IRE Mapper": 4042,
+        "Asteria IRE Mapper": 5427,
         "Asteria New Profile": 4092
     },
-    "roomCount": 2180
+    "roomCount": 2161
 }
