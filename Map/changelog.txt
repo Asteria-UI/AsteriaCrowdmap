@@ -4,4 +4,5 @@ changelog = {
 [[v8: Error correction]],
 [[v9: Added shop feature to shops in Hessa and Kalmyr, added boat and carriage map features as well]],
 [[v10: Removed signs in Hessa]],
+[[v11: Mapped the Dungeon of Trials]],
 }
