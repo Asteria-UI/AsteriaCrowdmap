@@ -1,6 +1,6 @@
 {
     "anonymousAreaName": "Unnamed Area",
-    "areaCount": 23,
+    "areaCount": 24,
     "areas": [
         {
             "id": -1,
@@ -709,7 +709,7 @@
                             "name": "west"
                         },
                         {
-                            "exitId": 4074,
+                            "exitId": 359,
                             "name": "south"
                         },
                         {
@@ -58734,6 +58734,570 @@
                     "id": 11429
                 }
             ]
+        },
+        {
+            "id": 23,
+            "name": "The Dungeon of Trials",
+            "roomCount": 26,
+            "rooms": [
+                {
+                    "coordinates": [
+                        0,
+                        -1,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 363,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 357,
+                    "name": "Welcome to Asteria"
+                },
+                {
+                    "coordinates": [
+                        0,
+                        6,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 4042,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 361,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 359,
+                    "name": "End of the Dungeon of Trials"
+                },
+                {
+                    "coordinates": [
+                        0,
+                        5,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 359,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 364,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 361,
+                    "name": "In the Dungeon of Trials"
+                },
+                {
+                    "coordinates": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 380,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 365,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 363,
+                    "name": "In the Dungeon of Trials"
+                },
+                {
+                    "coordinates": [
+                        0,
+                        4,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 361,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 367,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 366,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 382,
+                            "name": "south"
+                        },
+                        {
+                            "door": "closed",
+                            "exitId": 368,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 364,
+                    "name": "In the Dungeon of Trials"
+                },
+                {
+                    "coordinates": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 363,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 365,
+                    "name": "In a Library"
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        4,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 364,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 366,
+                    "name": "In a Small Alcove"
+                },
+                {
+                    "coordinates": [
+                        1,
+                        4,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 364,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 367,
+                    "name": "In a Small Alcove"
+                },
+                {
+                    "coordinates": [
+                        0,
+                        4,
+                        -1
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 371,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 373,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 369,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 374,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 364,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 368,
+                    "name": "In the Lower Dungeon"
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        4,
+                        -1
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 370,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 368,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 376,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 369,
+                    "name": "In the Lower Dungeon"
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        5,
+                        -1
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 371,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 369,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 370,
+                    "name": "In the Lower Dungeon"
+                },
+                {
+                    "coordinates": [
+                        0,
+                        5,
+                        -1
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 372,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 370,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 368,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 371,
+                    "name": "In the Lower Dungeon"
+                },
+                {
+                    "coordinates": [
+                        1,
+                        5,
+                        -1
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 371,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 373,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 372,
+                    "name": "In the Lower Dungeon"
+                },
+                {
+                    "coordinates": [
+                        1,
+                        4,
+                        -1
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 372,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 368,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 375,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 373,
+                    "name": "In the Lower Dungeon"
+                },
+                {
+                    "coordinates": [
+                        0,
+                        3,
+                        -1
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 368,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 375,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 376,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 374,
+                    "name": "In the Lower Dungeon"
+                },
+                {
+                    "coordinates": [
+                        1,
+                        3,
+                        -1
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 373,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 374,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 375,
+                    "name": "In the Lower Dungeon"
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        3,
+                        -1
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 369,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 374,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 376,
+                    "name": "In the Lower Dungeon"
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        2,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 381,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 378,
+                    "name": "In a Clothing and Armor Shop",
+                    "symbol": {
+                        "text": "$"
+                    },
+                    "userData": {
+                        "feature-shop": "true"
+                    }
+                },
+                {
+                    "coordinates": [
+                        1,
+                        2,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 381,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 379,
+                    "name": "In a Weapon Shop",
+                    "symbol": {
+                        "text": "$"
+                    },
+                    "userData": {
+                        "feature-shop": "true"
+                    }
+                },
+                {
+                    "coordinates": [
+                        0,
+                        1,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 381,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 385,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 386,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 363,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 380,
+                    "name": "In the Dungeon of Trials"
+                },
+                {
+                    "coordinates": [
+                        0,
+                        2,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 382,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 379,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 378,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 380,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 381,
+                    "name": "In the Dungeon of Trials"
+                },
+                {
+                    "coordinates": [
+                        0,
+                        3,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 364,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 383,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 384,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 381,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 382,
+                    "name": "In the Dungeon of Trials"
+                },
+                {
+                    "coordinates": [
+                        1,
+                        3,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 382,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 383,
+                    "name": "In a Small Library"
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        3,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 382,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 384,
+                    "name": "In a Small Chamber"
+                },
+                {
+                    "coordinates": [
+                        1,
+                        1,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 380,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 385,
+                    "name": "Dungeon of Trials - Communication"
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        1,
+                        0
+                    ],
+                    "environment": 36,
+                    "exits": [
+                        {
+                            "exitId": 380,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 386,
+                    "name": "Dungeon of Trials - Helpfiles"
+                }
+            ]
         }
     ],
     "customEnvColors": [
@@ -59105,16 +59669,17 @@
             ]
         }
     ],
-    "playerRoomInnerDiameterPercentage": 80,
+    "playerRoomInnerDiameterPercentage": 70,
     "playerRoomOuterDiameterPercentage": 120,
-    "playerRoomStyle": 1,
+    "playerRoomStyle": 0,
     "playersRoomId": {
+        "Asteria Code": 4042,
         "Asteria IRE Mapper": 4042,
         "Asteria New Profile": 4092,
         "AsteriaUI": 4084,
         "asteriamud.com": 4097
     },
-    "roomCount": 2358,
+    "roomCount": 2384,
     "userData": {
         "mapFeatures": "{\"shop\":\"$\",\"boat\":\"BT\",\"carriage\":\"CAR\"}"
     }
