@@ -6040,7 +6040,7 @@
                 },
                 {
                     "coordinates": [
-                        5,
+                        6,
                         -42,
                         0
                     ],
@@ -6076,7 +6076,10 @@
                         }
                     ],
                     "id": 12037,
-                    "name": "Near an Overturned Tree on the Western Drag"
+                    "name": "Near an Overturned Tree on the Western Drag",
+                    "symbol": {
+                        "text": " "
+                    }
                 },
                 {
                     "coordinates": [
@@ -59664,20 +59667,21 @@
         {
             "color24RGB": [
                 255,
-                255,
-                255
+                0,
+                0
             ]
         }
     ],
-    "playerRoomInnerDiameterPercentage": 70,
-    "playerRoomOuterDiameterPercentage": 120,
-    "playerRoomStyle": 0,
+    "playerRoomInnerDiameterPercentage": 80,
+    "playerRoomOuterDiameterPercentage": 110,
+    "playerRoomStyle": 3,
     "playersRoomId": {
         "Asteria Code": 4042,
         "Asteria IRE Mapper": 4042,
         "Asteria New Profile": 4092,
         "AsteriaUI": 4084,
-        "asteriamud.com": 4097
+        "asteriamud.com": 4097,
+        "asui": 12037
     },
     "roomCount": 2384,
     "userData": {
