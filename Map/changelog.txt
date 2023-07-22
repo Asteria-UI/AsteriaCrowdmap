@@ -6,5 +6,5 @@ changelog = {
 [[v10: Removed signs in Hessa]],
 [[v11: Mapped the Dungeon of Trials]],
 [[v12: Fixed room 12037]],
-[[v13: Finished Rhojidan and Kalmur. Added a lot of doors. Fixed the Rhojidan carriage rooms.]],
+[[v13: Finished Kalmyr and Rhojidan. Added a lot of doors.]],
 }
