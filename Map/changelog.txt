@@ -7,4 +7,5 @@ changelog = {
 [[v11: Mapped the Dungeon of Trials]],
 [[v12: Fixed room 12037]],
 [[v13: Finished Kalmyr and Rhojidan. Added a lot of doors.]],
+[[v14: Reverted 13.]],
 }
