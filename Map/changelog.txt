@@ -10,4 +10,5 @@ changelog = {
 [[v14: Reverted 13.]],
 [[v15: Re-mapped Rhojidan and Kalmyr. Fixed Carriage travel.]],
 [[v16: Added about 15 new areas]],
+[[v17: Dwarf Mines, Giants, Greywind]],
 }
