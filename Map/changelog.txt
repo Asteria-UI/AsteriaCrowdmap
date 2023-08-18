@@ -11,4 +11,5 @@ changelog = {
 [[v15: Re-mapped Rhojidan and Kalmyr. Fixed Carriage travel.]],
 [[v16: Added about 15 new areas]],
 [[v17: Dwarf Mines, Giants, Greywind]],
+[[v18: Changed boat feature to ferry, fixed a lot of room enviromment id's]],
 }
